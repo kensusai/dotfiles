@@ -45,7 +45,7 @@
   cb = rev-parse --abbrev-ref HEAD
   rho = !git rh origin/`git cb`
 	sp = stash pop
-	ss = stash save
+	ss = stash save -u
 	sl = stash list
 	sa = stash apply
 	# git vacuum developのように使う
